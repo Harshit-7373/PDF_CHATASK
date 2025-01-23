@@ -6,37 +6,37 @@ This project is a PDF Chat Application that allows users to upload a PDF documen
 
 With this application, users can interact with their PDF documents in a conversational manner, making it easier to extract relevant information quickly.
 
-Features
+(A) Features
 
-Upload and process PDF documents.
+1. Upload and process PDF documents.
 
-Ask questions related to the content of the uploaded PDF.
+2. Ask questions related to the content of the uploaded PDF.
 
-Leverages Hugging Face's NLP models for question answering.
+3. Leverages Hugging Face's NLP models for question answering.
 
-User-friendly interface built with Streamlit.
+4. User-friendly interface built with Streamlit.
 
-Technology Stack
+(B) Technology Stack
 
-Python for backend logic.
+1. Python for backend logic.
 
-Streamlit for the web interface.
+2. Streamlit for the web interface.
 
-PyPDF2 for extracting text from PDF files.
+3. PyPDF2 for extracting text from PDF files.
 
-Hugging Face models for text embedding and question answering.
+4. Hugging Face models for text embedding and question answering.
 
-FAISS for similarity search.
+5. FAISS for similarity search.
 
 
-Installation
-Clone the repository:
-cd into your directory/ open with vscode
-Create a Virtual Environment:
-python -m venv env
-Run the virtual environment: source env/bin/activate - for MacOS, env/Scripts/activate - for Linux, env/Scripts/activate.bat - for Windows cmd, env/Scripts/Activate.ps1 - for Windows PowerShell
-Install the required dependencies:
-pip install -r requirements.txt
-Create OpenAI API Key and add it to your .env file (don't forget to remove "copy" extension from the .env before run)
-Run the application:
+(C) Installation
+1. Clone the repository:
+2. cd into your directory/ open with vscode
+3. Create a Virtual Environment:
+   python -m venv env
+   Run the virtual environment: source env/bin/activate - for MacOS, env/Scripts/activate - for Linux, env/Scripts/activate.bat - for Windows cmd, env/Scripts/Activate.ps1 - for Windows PowerShell
+  Install the required dependencies:
+  pip install -r requirements.txt
+  Create OpenAI API Key and add it to your .env file (don't forget to remove "copy" extension from the .env before run)
+4. Run the application:
 streamlit run app.py

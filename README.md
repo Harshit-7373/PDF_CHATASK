@@ -27,6 +27,10 @@ With this application, users can interact with their PDF documents in a conversa
 4. Hugging Face models for text embedding and question answering.
 
 5. FAISS for similarity search.
+   
+6. LangChain: For text splitting and integration with embedding models.
+
+7. dotenv: To manage environment variables.
 
 
 (C) Installation
